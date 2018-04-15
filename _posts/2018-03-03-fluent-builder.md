@@ -9,7 +9,8 @@ share: true
 comments: true
 author: Żaba
 image:
-  feature: /images/kevin-jarrett-561802-unsplash.jpg
+  path: /images/kevin-jarrett-561802-unsplash.jpg
+  caption: "Photo by Kevin Jarrett on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 # Point out to Fluent Builder
