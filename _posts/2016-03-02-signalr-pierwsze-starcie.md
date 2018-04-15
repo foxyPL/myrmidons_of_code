@@ -36,7 +36,7 @@ API SignalR dostarcza abstrakcyjną warstwe transportu. Oznacza to że programis
 
 Klasa <a href="https://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k(Microsoft.AspNet.SignalR.Hub);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.5.1);k(DevLang-csharp)&rd=true" target="_blank">Hub</a> umożliwia komunikacje obustronną poprzez wywoływanie metod C# oraz JavaScript. Hub służy jako miejsce przechowywania metod wykonywanych przez serwer oraz aplikacje kliencką (np. przeglądarka internetowa). Dla każdego nowego połączenie tworzona jest nowa instancja Hub-a.
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/SignalR-768x323.png)
+![alt]({{ site.url }}{{ site.baseurl }}/images/SignalR-768x323.png)
 {: .full}
 
 Poniżej przedstawiona jest pochodna klasy Hub.
