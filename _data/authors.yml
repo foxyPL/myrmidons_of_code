@@ -1,0 +1,14 @@
+Żaba:
+  name: "Łukasz Zaborski"
+  uri: "http://thewhip.com"
+  email: "billy@rick.com"
+  bio: "Debug your mind before you debug code."
+  avatar: "/assets/images/bio-photo.jpg"
+
+
+Jarek:
+  name: "Jarek Liszewski"
+  email: "cornelius@thewhip.com"
+  uri: "http://thewhip.com"
+  bio: "Programming is the art of telling another human being what one wants the computer to do."
+  avatar: "/assets/images/foxy_bio.jpg"
