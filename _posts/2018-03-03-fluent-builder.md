@@ -13,6 +13,11 @@ image:
   caption: "Photo by Kevin Jarrett on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
+<figure class="align-center">
+  <a href="#"><img src="{{ '//images/kevin-jarrett-561802-unsplash.jpg' | absolute_url }}" alt=""></a>
+  <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
+</figure>
+
 # Point out to Fluent Builder
 
 This week I had occasion participated in training organized by company which I provide my services.
