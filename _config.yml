@@ -46,8 +46,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: true
-paginate_path: /page:num/
+paginate: 5
 
 # Search
 search_full_content: false # can have performance implications for large sites
