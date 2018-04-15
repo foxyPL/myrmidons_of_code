@@ -8,14 +8,11 @@ categories: design patterns
 share: true
 comments: true
 author: Żaba
-image:
-  path: /images/kevin-jarrett-561802-unsplash.jpg
-  caption: "Photo by Kevin Jarrett on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 <figure class="align-center">
   <a href="#"><img src="{{ '//images/kevin-jarrett-561802-unsplash.jpg' | absolute_url }}" alt=""></a>
-  <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
+  <figcaption>Photo by Kevin Jarrett on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
 </figure>
 
 # Point out to Fluent Builder
