@@ -3,7 +3,7 @@
   uri: "http://thewhip.com"
   email: "billy@rick.com"
   bio: "Debug your mind before you debug code."
-  avatar: "/images/bio-photo.jpg"
+  picture: "/images/bio-photo.jpg"
 
 
 Jarek:
@@ -11,4 +11,4 @@ Jarek:
   email: "cornelius@thewhip.com"
   uri: "http://thewhip.com"
   bio: "Programming is the art of telling another human being what one wants the computer to do."
-  avatar: "/images/foxy_bio.jpg"
+  picture: "/images/foxy_bio.jpg"
