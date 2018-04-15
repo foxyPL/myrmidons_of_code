@@ -3,19 +3,21 @@ layout: post
 title: "Point out to Fluent Builder"
 excerpt: "Whenever you have a domain object, data transfer object, parameter object or any other object that can’t be instantiated with constructor parameters only, you need to create a builder for its class."
 date: 2018-02-03
-tags: [csharp, design patterns, builder pattern]
-categories: design patterns
+tags: 
+    - csharp
+    - design patterns
+    - builder pattern
+categories: 
+    - design patterns
 share: true
 comments: true
 author: Żaba
 ---
 
 <figure class="align-center">
-  <a href="#"><img src="{{ '//images/kevin-jarrett-561802-unsplash.jpg' | absolute_url }}" alt=""></a>
+  <a href="#"><img src="{{ '/images/kevin-jarrett-561802-unsplash.jpg' | absolute_url }}" alt=""></a>
   <figcaption>Photo by Kevin Jarrett on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
 </figure>
-
-# Point out to Fluent Builder
 
 This week I had occasion participated in training organized by company which I provide my services.
 The main goal of training was improve our knowledge about design patterns, and all other stuff that we can call a good practices.
