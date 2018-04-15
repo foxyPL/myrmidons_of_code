@@ -12,7 +12,7 @@ header:
 
 Dobre pytanie… Czytając rożne blogi, często trafialiśmy na wpisy, w których autorzy zachęcali każdego programistę do prowadzenia bloga. Do kilku dłuższuch wymianach zdań postanowiliśmy, że i my sprobjemy. Jakie będą efekty… To się dopiero okaże 🙂
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/alive.gif)
+![center-aligned-image]({{ site.url }}{{ site.baseurl }}/images/alive.gif){: .align-center}
 
 ## Kto stoi za siepaczami kodu?
 
