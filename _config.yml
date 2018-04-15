@@ -87,7 +87,7 @@ defaults:
 # Site Author
 author:
   name: Myrmidons Of Code
-  picture: assets/images/myr1.jpg
+  picture: /assets/images/myr1.jpg
   email:
   twitter:
   links:
