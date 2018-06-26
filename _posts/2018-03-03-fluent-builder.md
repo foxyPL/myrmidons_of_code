@@ -29,15 +29,13 @@ Our exercises relied on analyzing fragments of code (that was not really pretty)
 When we stopped at the exercise with builder pattern, one thing motivated me to make this post.
 Just for quick reminder I put here qoute from the gang of four book that describe the purpose of builder pattern.
 
->Separate the construction of a complex object from its representation so that the same construction process can create different representation.  
-{: .text-right}Design Patterns: Elements of Reusable Object-Oriented Software
+> Separate the construction of a complex object from its representation so that the same construction process can create different representation.  
+> <footer>Design Patterns: Elements of Reusable Object-Oriented Software</footer>
 
 To be honest I had only two occasions to implement and use fluent builder pattern, below I present how it could looks like.
 
 Lets imagine that **RecruitmentApplication** is some kind of large contract exhibited by an external service belonging to some university. As we can see it could be really large flat strucutre contract that's inlcude every information which is gonna be need during recruitment process to university.
 
-text
-{: style="text-align: center"}
 
 <script src="https://gist.github.com/Zabaa/585577b4987a9feace8a08f451126e2b.js?file=RecruitmentApplication.cs"></script>
 
