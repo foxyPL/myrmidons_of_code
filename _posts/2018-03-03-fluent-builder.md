@@ -29,17 +29,21 @@ Our exercises relied on analyzing fragments of code (that was not really pretty)
 When we stopped at the exercise with builder pattern, one thing motivated me to make this post.
 Just for quick reminder I put here qoute from the gang of four book that describe the purpose of builder pattern.
 
->Separate the construction of a complex object from its representation so that the same construction process can create different representation.<div style="text-align: right">Design Patterns: Elements of Reusable Object-Oriented Software</div>
+>Separate the construction of a complex object from its representation so that the same construction process can create different representation.  
+{: .text-right}Design Patterns: Elements of Reusable Object-Oriented Software
 
 To be honest I had only two occasions to implement and use fluent builder pattern, below I present how it could looks like.
 
 Lets imagine that **RecruitmentApplication** is some kind of large contract exhibited by an external service belonging to some university. As we can see it could be really large flat strucutre contract that's inlcude every information which is gonna be need during recruitment process to university.
 
-<script src="https://gist.github.com/Zabaa/585577b4987a9feace8a08f451126e2b.js?file=recruitmentapplication.cs"></script>
+text
+{: style="text-align: center"}
+
+<script src="https://gist.github.com/Zabaa/585577b4987a9feace8a08f451126e2b.js?file=RecruitmentApplication.cs"></script>
 
  We can use fluent builder pattern here to simplify creation of objects like RecruitmentApplication.
 
-<script src="https://gist.github.com/Zabaa/585577b4987a9feace8a08f451126e2b.js?file=firstapplicationbuilder.cs"></script>
+<script src="https://gist.github.com/Zabaa/585577b4987a9feace8a08f451126e2b.js?file=FirstApplicationBuilder.cs"></script>
 
 
 But back to my training, in many posts about fluent builder I noticed that object returned from builder was initialized in Builder constructor like that:
@@ -75,4 +79,4 @@ So how can it be implemented correctly ? I can move object initialized to **Buil
 I realize that's increase amount of code lines, but with this manner I'm sure that my builder gives me a brand new object. Nice!
 Of course below you can find how it could looks like after a small refactoring.
 
-<script src="https://gist.github.com/Zabaa/585577b4987a9feace8a08f451126e2b?file=applicationbuilder.cs"></script>
+<script src="https://gist.github.com/Zabaa/585577b4987a9feace8a08f451126e2b.js?file=ApplicationBuilder.cs"></script>
