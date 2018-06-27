@@ -3,8 +3,17 @@
   uri: "http://thewhip.com"
   email: "billy@rick.com"
   bio: "Debug your mind before you debug code."
-  picture: "/images/bio-photo.jpg"
-
+  picture: "/images/frog_bio.jpg"
+  links:
+      - title: Twitter
+        url: https://twitter.com/LukaszZaborski
+        icon: fab fa-twitter-square
+      - title: Instagram
+        url: https://www.instagram.com/zaba.luk/
+        icon: fab fa-instagram
+      - title: GitHub
+        url: https://github.com/Zabaa
+        icon: fab fa-github-square
 
 Jarek:
   name: "Jarek Liszewski"
